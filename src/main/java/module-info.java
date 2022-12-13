@@ -1,10 +1,8 @@
-module com.example.banksystem_gui {
+module com.example.banksystem_remade {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens dalmar9.Uppgift_5 to javafx.fxml;
-    exports dalmar9.Uppgift_5;
-    exports dalmar9.Uppgift_5.FileActions;
-    opens dalmar9.Uppgift_5.FileActions to javafx.fxml;
+    opens com.example.banksystem_remade to javafx.fxml;
+    exports com.example.banksystem_remade;
 }
